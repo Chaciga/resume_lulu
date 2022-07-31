@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: white;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.h {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    height: 10px;
+}
+.h a {
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+.h a:hover {
+    color: #965f68;
+}
+.h img {
+    object-fit: contain;
+    width: 4%;
+    height: 4%;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.h .hr {
+    display: flex;
+}
+.b {
+    display: flex;
+    justify-content: space-between;
+    height: 42.5vw;
+    align-items: left;
+    /* background: linear-gradient(to right, white 0%, white 50%, black 50%, black 100%); */
+}
+.lb {
+    /* display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    top: 25%;
+    left: 0;
+    color: rgb(252, 249, 249);
+}
+.lb h1 {
+    padding-left: 240px;
+    font-size: 70px;
+    position: relative;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.lb p {
+    padding-left: 240px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    color: #965f68;
+    font-style: italic;
+}
+.lb button {
+    position: relative;
+    left: 240px;
+    color: white;
+    border-color: white;
+    background-color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.lb button:hover {
+    border-color: black;
+    background-color: #965f68;
+    transition: 0.3s;
+}
+.lb h1 span {
+    color: #965f68;
+}
